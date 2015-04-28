@@ -5,3 +5,4 @@ exclude:
   - /Rakefile
   - /lib
   - /hooks
+baseurl: /spark-workshop
