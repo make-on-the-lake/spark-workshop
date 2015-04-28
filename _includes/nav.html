@@ -1,0 +1,18 @@
+<h4>Navigation</h4>
+<ul>
+  <li><a href="{{ site.baseurl }}/">Home</a></li>
+  <li><a href="{{ site.motlurl }}" target="_blank">Make on the Lake</a></li>
+</ul>
+
+<h4>Steps</h4>
+<div class="steps">
+  {% capture steps %}{% include steps.md %}{% endcapture %}
+  {{ steps | markdownify }}
+</div>
+
+<h4>After You're Done</h4>
+<ul>
+  <li><a href="{{ site.baseurl }}/pages/purchasing-guide.html">Purchasing Guide</a></li>
+  <li><a href="{{ site.baseurl }}/pages/ideas.html">Ideas</a></li>
+  <li><a href="{{ site.baseurl }}/pages/contributing.html">Show Us What You've Made</a></li>
+</ul>

@@ -6,3 +6,4 @@ exclude:
   - /lib
   - /hooks
 baseurl: /spark-workshop
+motlurl: http://www.meetup.com/Make-on-the-Lake/
