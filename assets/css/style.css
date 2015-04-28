@@ -46,3 +46,12 @@
 a.active {
   font-weight: bold;
 }
+
+/* Debug */
+.debug-api-key {
+  width: 100%;
+}
+
+.debug-output {
+  margin: 10px !important;
+}
