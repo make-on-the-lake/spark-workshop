@@ -1,0 +1,9 @@
+/* Page Header */
+.page-header {
+  background: url('/assets/img/header-bg.jpeg') center center;
+  background-size: cover;
+}
+
+.page-header h2 a {
+  color: #fff;
+}
