@@ -10,3 +10,5 @@ This site will take you through the spark workshop.  During the workshop we will
 - Connect our computers to our spark core
 - Load code onto our spark
 - Read data from the spark API (using javascript, ruby, or python)
+
+So <a href="{{ site.baseurl }}/steps/01-meet-the-spark-core.html">lets get started</a>!
