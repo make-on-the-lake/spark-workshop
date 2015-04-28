@@ -16,7 +16,7 @@ class Step
         is_child: !!child_step,
         child_id: child_step,
         title:    title,
-        url:      "/steps/#{basename}".sub('.md', '.html')
+        url:      "{{ site.baseurl }}/steps/#{basename}".sub('.md', '.html')
       })
     else
       nil

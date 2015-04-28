@@ -1,6 +1,6 @@
 /* Page Header */
 .page-header {
-  background: url('/assets/img/header-bg.jpeg') center center;
+  background: url('../img/header-bg.jpeg') center center;
   background-size: cover;
 }
 

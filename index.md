@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  Spark Workshop
+title:  Welcome
 ---
 
 # Welcome to Make on the Lake's Spark Workshop
