@@ -55,3 +55,12 @@ a.active {
 .debug-output {
   margin: 10px !important;
 }
+
+/* Steps */
+.next-and-prev-step-links-container a {
+  display: none;
+}
+
+#next-step-link {
+  float: right;
+}

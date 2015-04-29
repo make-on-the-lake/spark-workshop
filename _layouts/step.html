@@ -14,9 +14,14 @@
       <div class="main">
         <h1>{{ page.title }}</h1>
         {{ content }}
+        <div class="next-and-prev-step-links-container">
+          <a href="" id="previous-step-link">&#8592; Previous Step</a>
+          <a href="" id="next-step-link">Next Step &#8594;</a>
+        </div>
       </div>
       <br style="clear:both">
       {% include footer.html %}
     </section>
+    <script src="{{ site.baseurl }}/assets/js/steps.js"></script>
   </body>
 </html>

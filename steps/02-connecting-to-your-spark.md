@@ -24,4 +24,23 @@ For connecting your Spark Core to WiFi that documentation is hosted over at:
 
 ## Plug in your Spark
 
-To power your Spark
+To power your Spark plug your Spark into your computer using the USB cable in
+your kit.  Once your spark in plugged in the LED should blink blue.  The LED
+blinking blue means your spark is in <strong>listening mode</strong>.
+
+<div style="text-align:center">
+<iframe src="https://vine.co/v/hFHPMue5lgd/embed/simple" width="300" height="300" frameborder="0"></iframe><script src="https://platform.vine.co/static/scripts/embed.js"></script>
+</div>
+
+### If Your Spark Does Not Boot Into Listening Mode
+
+If your Spark does not boot into listening mode then simply hold the <strong>MODE</strong>
+button down for <strong>3</strong> seconds while plugged in.  After that your
+Spark's LED should blink blue.
+
+## Actually Connecting
+
+Now that your Spark is plugged into your computer and in <strong>listening mode</strong>
+we will begin setting up to communicate with it.
+
+<!-- TODO -->
