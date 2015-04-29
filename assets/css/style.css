@@ -57,10 +57,6 @@ a.active {
 }
 
 /* Steps */
-.next-and-prev-step-links-container a {
-  display: none;
-}
-
 #next-step-link {
   float: right;
 }

@@ -1,6 +1,7 @@
 ---
 layout: step
 title:  Meet the Spark Core
+next:   02-connecting-to-your-spark.html
 ---
 
 <div style="float:right">

@@ -1,6 +1,8 @@
 ---
 layout: step
 title:  Connecting to our Spark
+prev:   01-meet-the-spark-core.html
+next:   03-coding-your-core.html
 ---
 
 Naturally the first step of the workshop will be connecting to your Spark Core.

@@ -1,6 +1,4 @@
 safe: true
-include:
-  - /assets/js/steps.js
 exclude:
   - /vendor
   - /.bundle
