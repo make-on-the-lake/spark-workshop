@@ -2,6 +2,9 @@
 
 1. [Meet The Spark Core]({{ site.baseurl }}/steps/01-meet-the-spark-core.html)
 2. [Connecting To Your Spark]({{ site.baseurl }}/steps/02-connecting-to-your-spark.html)
+    1. [Windows]({{ site.baseurl }}/steps/02.01-windows.html)
+    2. [Osx]({{ site.baseurl }}/steps/02.02-osx.html)
+    3. [Linux]({{ site.baseurl }}/steps/02.03-linux.html)
 3. [Coding Your Core]({{ site.baseurl }}/steps/03-coding-your-core.html)
     1. [Web Interface]({{ site.baseurl }}/steps/03.01-web-interface.html)
     2. [Command Line (node.js)]({{ site.baseurl }}/steps/03.02-command-line-(node.js).html)

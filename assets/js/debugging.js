@@ -14,6 +14,7 @@
   var $varVals = $('#debug-var-vals');
 
   setInterval(function() {
+
     var apiKey = $apiKeyInput.val();
 
     if (apiKey == '') return;
@@ -27,14 +28,31 @@
       res.forEach(function(device) {
         devices.push({ name: device.name, connected: device.connected });
       });
-      $devices.text(jsonify(devices, undefined, 2));
+      $devices.text(jsonify(devices));
 
       devices.forEach(function(device) {
         if (!device.connected) return;
         req('devices/' + device.name).then(function(res) {
-          // TODO
-          //  get names of vars here
-          //  then get the vals of those vars
+          var vars = res.variables;
+          $vars.text(jsonify(vars));
+          var varNames = Object.keys(vars);
+          var promises = [];
+          for (var i in varNames) {
+            var varName = varNames[i];
+            var def     = $.Deferred()
+            req('devices/' + device.name + '/' + varName).then(function(res) {
+              def.resolve(res);
+            });
+            promises.push(def.promise());
+          }
+          $.when.apply($, promises).then(function() {
+            var varVals = {};
+            for (var i = 0; i < arguments.length; i++) {
+              var cur = arguments[i];
+              varVals[cur.name] = cur.result;
+            }
+            $varVals.text(jsonify(varVals));
+          });
         });
       });
     });

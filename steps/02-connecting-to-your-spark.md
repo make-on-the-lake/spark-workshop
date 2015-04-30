@@ -2,7 +2,6 @@
 layout: step
 title:  Connecting to our Spark
 prev:   01-meet-the-spark-core.html
-next:   03-coding-your-core.html
 ---
 
 Naturally the first step of the workshop will be connecting to your Spark Core.
@@ -40,9 +39,21 @@ If your Spark does not boot into listening mode then simply hold the <strong>MOD
 button down for <strong>3</strong> seconds while plugged in.  After that your
 Spark's LED should blink blue.
 
+## Signing Up For a Spark Account
+
+We will all need Spark accounts to do much with our Sparks.  Of course if you
+already have a spark account you can skip this step.  To sign up for an
+account simply go to [https://build.spark.io/signup](https://build.spark.io/signup).
+
 ## Actually Connecting
 
 Now that your Spark is plugged into your computer and in <strong>listening mode</strong>
 we will begin setting up to communicate with it.
 
-<!-- TODO -->
+Depending on your operating system the steps to take to connect your core will differ.
+Please select your operating system from the links below to go to the specific directions
+for that OS.
+
+- [Windows](02.01-windows.html)
+- [OSX](02.02-osx.html)
+- [Linux](02.03-linux.html)
