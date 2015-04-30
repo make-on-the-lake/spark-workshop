@@ -1,7 +1,8 @@
 ---
 layout: step
 title:  Exposing Variables
-next:   05-reading-variables.html
+prev:   04-coding-your-core.html
+next:   06-reading-variables.html
 ---
 
 <!--

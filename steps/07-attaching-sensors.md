@@ -1,5 +1,5 @@
 ---
 layout: step
 title:  Attaching Sensors
-prev:   05-reading-variables.html
+prev:   06-reading-variables.html
 ---

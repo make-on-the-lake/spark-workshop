@@ -24,19 +24,19 @@ can begin making their own IoT devices.  We want to provide attendees with
 ### Steps
 
 - [x] Meet The Spark Core
-- [ ] Connecting To Your Spark
-- [ ] Coding Your Core
-    - [ ] Web Interface
-    - [ ] Command Line (node.js)
+- [x] Connecting To Your Spark
+  - [ ] Windows
+  - [x] OSX
+  - [ ] Linux
+- [ ] Claiming Your Spark
+- [x] Coding Your Core
 - [ ] Exposing Variables
 - [ ] Reading Variables
-    - [ ] Javascript (browser)
+    - [x] Javascript (browser)
     - [ ] Javascript (node.js)
     - [x] Python
     - [ ] Ruby
-    - [ ] Other
 - [ ] Attaching Sensors
-...
 
 ### Pages
 
