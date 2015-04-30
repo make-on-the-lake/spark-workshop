@@ -2,7 +2,7 @@
 layout: step
 title:  Coding Your Core
 prev:   03-claiming-your-spark.html
-next:   05-reading-variables.html
+next:   05-exposing-variables.html
 ---
 
 Now that we have claimed our core and are logged into the Spark Cloud we can
